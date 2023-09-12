@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+nav {
+    box-shadow: 5px 5px 5px grey;
+}
+
+.shopify-heading {
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: inline;
+}
+
+.shopify-logo {
+    height: 30px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.select {
+    border: none;
+    background-color: transparent;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width:768px) {
+    .navbar-toggler {
+        visibility: hidden;
+    }
+}
+
+.free-trial-button {
+    background-color: transparent;
+    color: black;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:768px) {
+    .free-trial-button {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.free-trial-button:hover {
+    opacity: 0.75;
+}
+
+.login {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.content-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay-buttons-container {
+    width: 30%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #98fadd;
+    border-radius: 25px;
+    padding: 3px;
+}
+
+.pay-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.selected-button {
+    background-color: black;
+    color: white;
+}
+
+.pay-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.plan-button {
+    background-color: transparent;
+    margin: 0px;
+    border: 2px solid #e8e4e3;
+    font-weight: bold;
+}
+
+.selected-button {
+    border-top: 3px solid #8df2de;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+}
+
+* {
+    font-family: "Roboto";
+}
+
+.position-absolute {}
+
+@media screen and (min-width:768px) {
+    .selected-card {
+        border: 3px solid #8df2de;
+        position: relative;
+    }
+
+    .position-absolute {
+        position: absolute;
+        background-color: #8df2de;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        left: 15px;
+        top: -8px;
+        right: 15px;
+    }
+}
+
+.plan-name {
+    font-weight: 700;
+}
+
+.plan-description {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.description {
+    font-size: 12px;
+}
+
+.price-text {
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.span-p {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.try-for-free-button {
+    align-self: center;
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.highlighted-line {
+    background-color: #d8f2f0;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.included-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.tick-symbol {
+    color: 8df2de;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:767px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
